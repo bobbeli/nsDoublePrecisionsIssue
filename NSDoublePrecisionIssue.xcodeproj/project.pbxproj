@@ -14,8 +14,8 @@
 		27B332EA24865BCB00FDA430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B332E924865BCB00FDA430 /* Assets.xcassets */; };
 		27B332ED24865BCB00FDA430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B332EB24865BCB00FDA430 /* LaunchScreen.storyboard */; };
 		27B332F024865BCB00FDA430 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B332EF24865BCB00FDA430 /* main.m */; };
-		27B332FA24865BCC00FDA430 /* NSDoublePrecisionIssueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B332F924865BCC00FDA430 /* NSDoublePrecisionIssueTests.m */; };
 		27B3330524865CAC00FDA430 /* DoublePrecision.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B3330424865CAC00FDA430 /* DoublePrecision.m */; };
+		27B333092486648000FDA430 /* DoublePrecisionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B333082486648000FDA430 /* DoublePrecisionTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +42,8 @@
 		27B332EE24865BCB00FDA430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27B332EF24865BCB00FDA430 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27B332F524865BCC00FDA430 /* NSDoublePrecisionIssueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSDoublePrecisionIssueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		27B332F924865BCC00FDA430 /* NSDoublePrecisionIssueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDoublePrecisionIssueTests.m; sourceTree = "<group>"; };
-		27B332FB24865BCC00FDA430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27B3330424865CAC00FDA430 /* DoublePrecision.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoublePrecision.m; sourceTree = "<group>"; };
+		27B333082486648000FDA430 /* DoublePrecisionTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoublePrecisionTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				27B332DC24865BC900FDA430 /* NSDoublePrecisionIssue */,
-				27B332F824865BCC00FDA430 /* NSDoublePrecisionIssueTests */,
 				27B332DB24865BC900FDA430 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,17 +96,9 @@
 				27B332EE24865BCB00FDA430 /* Info.plist */,
 				27B332EF24865BCB00FDA430 /* main.m */,
 				27B3330424865CAC00FDA430 /* DoublePrecision.m */,
+				27B333082486648000FDA430 /* DoublePrecisionTest.m */,
 			);
 			path = NSDoublePrecisionIssue;
-			sourceTree = "<group>";
-		};
-		27B332F824865BCC00FDA430 /* NSDoublePrecisionIssueTests */ = {
-			isa = PBXGroup;
-			children = (
-				27B332F924865BCC00FDA430 /* NSDoublePrecisionIssueTests.m */,
-				27B332FB24865BCC00FDA430 /* Info.plist */,
-			);
-			path = NSDoublePrecisionIssueTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,7 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27B332FA24865BCC00FDA430 /* NSDoublePrecisionIssueTests.m in Sources */,
+				27B333092486648000FDA430 /* DoublePrecisionTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
